@@ -1,0 +1,142 @@
+body {
+  font-family: "Poor Richard", serif;
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  color: white;
+}
+
+.banner {
+  width: 100%;
+  height: auto;
+}
+
+header h1 {
+  text-align: center;
+  margin: 10px 0 20px 0;
+  font-family: "Poor Richard", serif; 
+  font-size: 9em;
+  letter-spacing: 2px;
+  color: #fff;
+}
+
+.subheader {
+  font-family: "Trebuchet MS", sans-serif; 
+  font-size: 0.7em;                        
+  text-align: center;
+  color: #fff;                              
+  margin-top: -5px;                         
+  font-style: italic;                       
+}
+
+
+.split-container {
+  display: flex;
+  min-height: 500px;
+}
+
+.anime-section, .gaming-section {
+  width: 50%;
+  padding: 20px;
+  text-align: center;
+  font-size: 1.3em; 
+  line-height: 1.6;
+}
+
+
+/*Fonts - anime*/
+.anime-section h2 {
+  font-family: "Poor Richard", serif; 
+  font-size: 2.3em;
+}
+
+.anime-section .dandadan-title {
+  font-family: "Trebuchet MS", sans-serif;
+  font-size: 1.8em;
+}
+
+.anime-section .onepiece-title {
+  font-family: "Georgia", serif;
+  font-size: 1.8em;
+}
+
+.anime-section .jjk-title {
+  font-family: "Trebuchet MS", sans-serif;
+  font-size: 1.8em;
+}
+
+/*Fonts - gaming*/
+.gaming-section h2 {
+  font-family: "Poor Richard", serif; 
+  font-size: 2.3em;
+}
+
+.gaming-section .marvel-title {
+  font-family: "Trebuchet MS", sans-serif;
+  font-size: 1.8em;
+}
+
+.gaming-section .kcd2-title {
+  font-family: "Georgia", serif;
+  font-size: 1.8em;
+}
+
+.gaming-section .animal-crossing-title {
+  font-family: "Georgia", serif;
+  font-size: 1.8em;
+}
+
+.item img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+/* Fun Facts Section */
+.fun-facts-section {
+  text-align: center;
+  background-color: #111;
+  color: #fff;
+  padding: 20px;
+  margin: 30px 0;
+  border-radius: 10px;
+  font-size: 1.3em;
+}
+
+.fun-facts-section h2 {
+  font-family: "Poor Richard", serif;
+  font-size: 2em;
+  margin-bottom: 15px;
+}
+
+.fun-facts-section ul {
+  list-style-type: square;
+  list-style-position: inside;
+  padding-left: 0;
+}
+
+.fun-facts-section li {
+  margin-bottom: 10px;
+  line-height: 1.5;
+}
+
+.hidden {
+  display: none;
+}
+/*About Section*/
+.about-container {
+  display: flex;
+  flex-direction: column;   
+  justify-content: center;  
+  align-items: center;      
+  min-height: 100vh;        
+  text-align: center;       
+  padding: 20px;            
+}
+
+footer {
+  text-align: center;
+  padding: 15px;
+  background-color: #000000;
+  color: #fff;
+}
